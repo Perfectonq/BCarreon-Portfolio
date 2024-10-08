@@ -1,0 +1,268 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: black;
+  max-width: 1400px;
+  margin: 0 auto;
+  @font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />);
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Section 1 */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section h2 span {
+  color: #d15151
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+  height: 80px;
+}
+
+nav .left a {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hero-section .right {
+  display: flex;
+  margin-left: -10px;
+}
+
+.hero-section .right a {
+  color: white;
+  margin: 0 10px;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.hero-section .right a:last-child {
+  color: white;
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.hero-section .right a span {
+  margin-left: 5px;
+}
+
+/* Section 1 */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+.hero-section .text {
+  flex: 5;
+}
+
+.hero-section .Image {
+  flex: 2;
+  width: 10px;
+  height: 10px;
+  justify-content: right;
+}
+
+.hero-section .Image img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.hero-section .text h2{
+  font-size: 45px;
+}
+
+/* Section 2 */
+.CodeJourn {
+  padding: 0 50px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.CodeJourn h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.CodeJourn .text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.CodeJourn .skill h3 {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.CodeJourn .cells {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.CodeJourn .cells .cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1.5px solid dimgray;
+  border-radius: 5px;
+}
+
+.CodeJourn .cells .cell img {
+  width: 45px;
+  height: 45px;
+}
+
+.CodeJourn .cells .cell span {
+  font-size: 18px;
+}
+
+.CodeJourn .cells h3 {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+
+}
+
+/* Section 3 */
+.WID {
+  pad: 0px 50px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.WID p span {
+  color: #d15151;
+  text-decoration: underline;
+}
+
+.WID h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.WID footer {
+  font-size: 25px;
+}
+
+/* Section 4 */
+.WIWTD {
+  pad: 0px 50px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.WIWTD h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Section 5 */
+
+.right email-button {
+  color: white;
+}
+
+@media (max-width: 850px) {
+  .hero-section .text h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 740px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .hero-section .Image img {
+    width: 300px;
+  }
+
+}
+@media (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+  }
+  
+  nav .right a {
+    font-size: 22px;
+  }
+
+  nav .right a:last-child {
+    color: white;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  nav .right a span {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 0 20px;
+  }
+
+  .hero-section .text h2P{
+    font-size: 30px;
+  }
+
+  /* Section 2 */
+  .CodeJourn {
+    padding: 0 20px;
+  }
+
+  .CodeJourn .cells .cell span {
+    font-size: 16px;
+  }
+}
+
