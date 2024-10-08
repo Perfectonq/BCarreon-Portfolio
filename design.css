@@ -213,13 +213,13 @@ nav .left a {
   color: white;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 540px) {
   .hero-section .text h2 {
     font-size: 35px;
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 400px) {
   .hero-section {
     flex-direction: column-reverse;
   }
@@ -230,7 +230,7 @@ nav .left a {
   }
 
 }
-@media (max-width: 400px) {
+@media (max-width: 355px) {
   nav {
     padding: 0 20px;
   }
