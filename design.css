@@ -221,14 +221,6 @@ nav .left a {
     text-align: center;
   }
 
-  main h2 {
-    text-align: center;
-  }
-
-  main .text {
-    text-align: center;
-  }
-
   .WID and .WIWTD {
     font-size: auto;
   }
@@ -245,6 +237,8 @@ nav .left a {
     margin-left: -10px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: auto;
   }
 
   .hero-section .right a {
@@ -254,16 +248,18 @@ nav .left a {
     gap: 5px;
     padding: 10px;
     display: flex;
+    text-wrap: none;
   }
 
-  .hero-section .right a span {
+  .hero-section .right span {
     font-size: 11.73px;
     text-align:center;
+    text-wrap: none;
+    display: flex;
   }
 
   .hero-section img {
     width: 100%;
-    
     height: auto;
     margin: auto;
 
