@@ -225,8 +225,8 @@ nav .left a {
   }
 
   .hero-section .Image img {
-    width: 300px;
-    margin-left: 10px;
+    width: 250px;
+    margin-left: 50px;
   }
 
 }
@@ -234,9 +234,20 @@ nav .left a {
   nav {
     padding: 0 20px;
   }
+
+  nav .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   
   nav .right a {
     font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    text-decoration: none;
   }
 
   nav .right a:last-child {
