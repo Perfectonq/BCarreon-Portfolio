@@ -94,13 +94,15 @@ nav .left a {
 
 .hero-section .Image {
   flex: 2;
-  width: 10px;
-  height: 10px;
-  justify-content: right;
+  width: 100%;
+  height: auto;
+  justify-content: flex-end;
+  flex: 1 1 40%;
 }
 
 .hero-section .Image img {
-  width: 25px;
+  width: 100%;
+  min-width: 565px;
   border-radius: 50%;
 }
 
@@ -213,69 +215,41 @@ nav .left a {
   color: white;
 }
 
-@media (max-width: 540px) {
+@media (min-width: 400px) and (max-width: 705px) {
   .hero-section .text h2 {
     font-size: 35px;
   }
-}
 
-@media (max-width: 400px) {
   .hero-section {
+    display: flex;
     flex-direction: column-reverse;
   }
 
-  .hero-section .Image img {
-    width: 150px;
-    margin-left: 100px;
-  }
-
-}
-@media (max-width: 355px) {
-  nav {
-    padding: 0 20px;
-  }
-
-  nav .right {
+  .hero-section .right {
     display: flex;
-    justify-content: space-around;
+    margin-left: -10px;
+    justify-content: space-between;
     align-items: center;
   }
 
-  
-  nav .right a {
-    font-size: 16px;
-    text-align: center;
+  .hero-section .right a {
+    font-size: 14px;
+    margin: 0 10px;
+    margin-top: 10px;
+    gap: 5px;
+    text-align:justify;
     padding: 10px;
-    flex-grow: 1;
-    text-decoration: none;
+    display: flex;
   }
 
-  nav .right a:last-child {
-    color: white;
-    background-color: transparent;
-    padding: 0;
+  .hero-section .right a span {
+    margin-left: px;
   }
 
-  nav .right a span {
-    display: none;
-    align-items: center;
+  .hero-section .Image img {
+    width: 400px;
+    margin-left: 0;
+
   }
 
-  .hero-section {
-    padding: 0 20px;
-  }
-
-  .hero-section .text h2P{
-    font-size: 30px;
-  }
-
-  /* Section 2 */
-  .CodeJourn {
-    padding: 0 20px;
-  }
-
-  .CodeJourn .cells .cell span {
-    font-size: 16px;
-  }
 }
-
