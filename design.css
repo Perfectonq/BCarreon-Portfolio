@@ -225,6 +225,12 @@ nav .left a {
     font-size: auto;
   }
 
+
+  .hero-section .text p {
+    font-size: 15px;
+    text-align: center;
+  }
+
   .hero-section {
     font-size: auto;
     display: flex;
