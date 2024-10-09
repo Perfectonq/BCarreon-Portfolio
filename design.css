@@ -23,8 +23,8 @@ body {
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: #d15151;
+  text-decoration: underline;
 }
 
 /* Section 1 */
