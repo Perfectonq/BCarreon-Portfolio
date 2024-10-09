@@ -24,6 +24,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 /* Section 1 */
@@ -58,15 +59,14 @@ nav .left a {
 }
 
 .hero-section .right a {
-  color: #d15151;
-  text-decoration: underline;
+  color: white;
   margin: 0 10px;
   margin-top: 10px;
   gap: 5px;
 }
 
 .hero-section .right a:last-child {
-  color: #d15151;
+  color: white;
   background-color: transparent;
   padding: 5px 15px;
   border-radius: 5px;
