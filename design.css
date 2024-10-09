@@ -215,7 +215,7 @@ nav .left a {
   color: white;
 }
 
-@media (min-width: 400px) and (max-width: 705px) {
+@media (min-width: 360px) and (max-width: 705px) {
   .hero-section .text h2 {
     font-size: 30px;
     text-align: center;
