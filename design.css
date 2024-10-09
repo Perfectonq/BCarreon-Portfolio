@@ -23,8 +23,7 @@ body {
 }
 
 a {
-  color: #d15151;
-  text-decoration: underline;
+  color: white;
 }
 
 /* Section 1 */
@@ -59,7 +58,8 @@ nav .left a {
 }
 
 .hero-section .right a {
-  color: white;
+  color: #d15151;
+  text-decoration: underline;
   margin: 0 10px;
   margin-top: 10px;
   gap: 5px;
