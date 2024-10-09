@@ -227,7 +227,7 @@ nav .left a {
     
   }
 
-  .hero-sectionh h2 {
+  .hero-section {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
