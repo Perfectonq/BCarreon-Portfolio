@@ -224,9 +224,14 @@ nav .left a {
   .WID and .WIWTD {
     font-size: auto;
   }
-  
 
-  .hero-section {
+  main .text p {
+    justify-content: space-between;
+    font-size: auto;
+    
+  }
+
+  .hero-sectionh h2 {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
